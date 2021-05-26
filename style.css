@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+ font-family: 'Press Start 2P', sans-serif;
+ color: whitesmoke;
+ background-color: #2d3436;
+}
+
+button {
+ background-color: whitesmoke;
+ border: none;
+ font-family: 'Press Start 2P';
+ font-size: 16px;
+ padding: 20px;
+}
+
+hr{
+ margin-top: 10%;
+ height: 0.3em;
+ background-color: whitesmoke;
+}
+
+.baslik {
+ text-align: center;
+}
+
+.sayiaralik{
+ font-size: 0.8em;
+ margin-left: 65%;
+ width: 40%;
+}
+
+.sayi{
+ margin: auto;
+ color:#2d3436;
+ font-size: 3em;
+ text-align: center;
+ background-color:whitesmoke ;
+ padding: 25px;
+ width: 10%;
+ margin-top: -5%;
+}
+
+.kontrol-btn{
+ text-align: center;
+ margin-top: 1em;
+ margin-left: 25%;
+ text-align: center;
+}
+
+.mesaj{
+ margin-top: 5%;
+ font-size: 1em;
+ margin-left: 55%;
+}
+
+.puan {
+ margin-top: 35%;
+ margin-left: 65%;
+}
+
+.kayit{
+ margin-top: 35%;
+ margin-left: 65%;
+}
+
+.tah-sayi{
+ margin-top: 5%;
+ margin-left: 25%;
+ height: 2em;
+ width: 2em;
+ font-size: 5em;
+ padding: 0px;
+ background-color: #2d3436;
+ color: whitesmoke;
+ font-family: 'Press Start 2P';
+ text-align: center;
+}

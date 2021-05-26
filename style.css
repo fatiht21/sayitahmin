@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body{
+ display:block;
  font-family: 'Press Start 2P', sans-serif;
  color: whitesmoke;
  background-color: #2d3436;
+ float: center;
+ 
 }
 
 button {

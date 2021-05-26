@@ -31,6 +31,12 @@ document.querySelector(".kontrol-btn").addEventListener("click", function () {
     puan--;
   }
   document.querySelector(".puan").textContent = "🏆 Puan: " + puan;
+
+  if (puan <= 0) {
+    document.querySelector(".mesaj").textContent =
+      "😕 Oyunu Kaybettiniz... " + "Tahmin Edilen Sayı:" + tahminiSayi;
+    document.querySelector(".kontrol-btn").disabled = true;
+  }
 });
 
 document.querySelector(".tekrar-btn").addEventListener("click", function () {
@@ -40,4 +46,5 @@ document.querySelector(".tekrar-btn").addEventListener("click", function () {
   document.querySelector(".mesaj").textContent = "Tahmin Başlıyor!";
   document.querySelector(".sayi").textContent = "?";
   document.querySelector("body").style.backgroundColor = "#2d3436";
+  document.querySelector(".kontrol-btn").disabled = false;
 });

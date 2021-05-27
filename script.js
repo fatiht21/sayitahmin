@@ -25,10 +25,10 @@ document.querySelector(".kontrol-btn").addEventListener("click", function () {
     }
     return;
   } else if (sayiGir < tahminiSayi) {
-    document.querySelector(".mesaj").textContent = "⏫ Sayıyı Arttır";
+    document.querySelector(".mesaj").textContent = "⏫ Arttır";
     puan--;
   } else {
-    document.querySelector(".mesaj").textContent = "⏬ Sayılı Azalt";
+    document.querySelector(".mesaj").textContent = "⏬ Azalt";
     puan--;
   }
   document.querySelector(".puan").textContent = "🏆 Puan: " + puan;

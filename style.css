@@ -79,3 +79,24 @@ hr {
   font-family: "Press Start 2P";
   text-align: center;
 }
+
+button {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #5c6964;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #d3e2d31f}
+
+button:active {
+  background-color: #495349;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

@@ -16,7 +16,7 @@ document.querySelector(".kontrol-btn").addEventListener("click", function () {
   console.log(sayiGir === tahminiSayi);
   console.log(tahminiSayi);
   if (sayiGir == tahminiSayi) {
-    document.querySelector(".mesaj").textContent = "Tebrikler Bildiniz!";
+    document.querySelector(".mesaj").textContent = "🎉Tebrikler Bildiniz!👏";
     document.querySelector(".sayi").textContent = tahminiSayi;
     document.querySelector("body").style.backgroundColor = "#00b33c";
     document.querySelector("input").disabled = true;
